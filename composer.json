@@ -1,0 +1,7 @@
+{
+    "name": "openmage-strict/module-admin-notification",
+    "type": "magento-module",
+    "require": {
+        "openmage-strict/module-core": "*"
+    }
+}
