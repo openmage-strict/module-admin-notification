@@ -113,6 +113,8 @@ class Mage_AdminNotification_Model_Inbox extends Mage_Core_Model_Abstract
      * @param string $url
      * @param bool $isInternal
      * @return $this
+     *
+     * @SuppressWarnings(PHPMD.BooleanArgumentFlag)
      */
     public function add($severity, $title, $description, $url = '', $isInternal = true)
     {
@@ -142,6 +144,8 @@ class Mage_AdminNotification_Model_Inbox extends Mage_Core_Model_Abstract
      * @param string $url
      * @param bool $isInternal
      * @return $this
+     *
+     * @SuppressWarnings(PHPMD.BooleanArgumentFlag)
      */
     public function addCritical($title, $description, $url = '', $isInternal = true)
     {
@@ -157,6 +161,8 @@ class Mage_AdminNotification_Model_Inbox extends Mage_Core_Model_Abstract
      * @param string $url
      * @param bool $isInternal
      * @return $this
+     *
+     * @SuppressWarnings(PHPMD.BooleanArgumentFlag)
      */
     public function addMajor($title, $description, $url = '', $isInternal = true)
     {
@@ -172,6 +178,8 @@ class Mage_AdminNotification_Model_Inbox extends Mage_Core_Model_Abstract
      * @param string $url
      * @param bool $isInternal
      * @return $this
+     *
+     * @SuppressWarnings(PHPMD.BooleanArgumentFlag)
      */
     public function addMinor($title, $description, $url = '', $isInternal = true)
     {
@@ -187,6 +195,8 @@ class Mage_AdminNotification_Model_Inbox extends Mage_Core_Model_Abstract
      * @param string $url
      * @param bool $isInternal
      * @return $this
+     *
+     * @SuppressWarnings(PHPMD.BooleanArgumentFlag)
      */
     public function addNotice($title, $description, $url = '', $isInternal = true)
     {

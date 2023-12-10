@@ -61,6 +61,8 @@ class Mage_AdminNotification_Model_Resource_Inbox extends Mage_Core_Model_Resour
      *
      * @param Mage_AdminNotification_Model_Inbox $object
      * @return array
+     *
+     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
     public function getNoticeStatus(Mage_AdminNotification_Model_Inbox $object)
     {
@@ -80,6 +82,8 @@ class Mage_AdminNotification_Model_Resource_Inbox extends Mage_Core_Model_Resour
      *
      * @param Mage_AdminNotification_Model_Inbox $object
      * @param array $data
+     *
+     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
     public function parse(Mage_AdminNotification_Model_Inbox $object, array $data)
     {
