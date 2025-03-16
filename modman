@@ -1,0 +1,4 @@
+src/app/code/core/Mage/AdminNotification/                               app/code/core/Mage/AdminNotification/
+src/app/design/adminhtml/default/default/layout/adminnotification.xml   app/design/adminhtml/default/default/layout/adminnotification.xml
+src/app/etc/modules/Mage_AdminNotification.xml                          app/etc/modules/Mage_AdminNotification.xml
+src/app/locale/en_US/Mage_AdminNotification.csv                         app/locale/en_US/Mage_AdminNotification.csv

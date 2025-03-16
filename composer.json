@@ -1,0 +1,10 @@
+{
+    "name": "openmage-strict/module-admin-notification",
+    "description": "Mage_AdminNotification",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*",
+        "openmage-strict/module-core": "^120.2"
+    }
+}
